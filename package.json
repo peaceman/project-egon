@@ -1,0 +1,21 @@
+{
+  "author": "nixalio@gmail.com",
+  "license": "MIT",
+  "name": "egon",
+  "version": "1.0.0",
+  "description": "crawls egons lair",
+  "main": "src/main.js",
+  "dependencies": {
+    "commander": "^2.19.0",
+    "dotenv": "^6.1.0",
+    "fs-extra": "^7.0.0",
+    "puppeteer": "^1.7.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "DEBUG=1 node src/main.js"
+  },
+  "bin": {
+    "egon": "./bin/egon"
+  }
+}
